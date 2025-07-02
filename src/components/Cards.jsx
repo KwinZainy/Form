@@ -2,7 +2,7 @@ import React from 'react'
 
 const Cards = ({userCard}) => {
    if(userCard.length === 0){
-    return <p>No cards Available</p>
+    return <p className=' text-white font-bold text-[50px] flex justify-center items-center'>No cards Available</p>
    }
   return (
     <div className='bg-white h-screen overflow-y-auto'>
